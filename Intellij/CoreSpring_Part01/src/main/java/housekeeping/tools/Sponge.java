@@ -5,4 +5,8 @@ public class Sponge implements CleaningTool {
         System.out.println ("Splach Plouf" );
 
     }
+
+    public Sponge(){
+        System.out.println ("Here is a new Sponge" );
+    }
 }

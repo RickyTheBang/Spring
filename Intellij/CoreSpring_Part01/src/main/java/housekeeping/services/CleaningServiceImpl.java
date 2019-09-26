@@ -7,8 +7,11 @@ public class CleaningServiceImpl implements CleaningService{
     private CleaningTool cleaningTool;
 
     public CleaningServiceImpl(){
+        System.out.println ("The Cleaning Service Implentation has started" );
 
     }
+
+
 
     public CleaningServiceImpl(CleaningTool cleaningTool){
         this.cleaningTool =  cleaningTool;
