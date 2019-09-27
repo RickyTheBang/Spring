@@ -1,5 +1,6 @@
 package housekeeping;
 
+import housekeeping.configurations.HouseContextConfig_V02;
 import housekeeping.services.CleaningService;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

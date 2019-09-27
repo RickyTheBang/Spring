@@ -1,10 +1,10 @@
 package housekeeping;
 
-import housekeeping.services.CleaningServiceImpl;
-import housekeeping.tools.Broom;
+import housekeeping.services.implementation.CleaningServiceImpl;
+import housekeeping.tools.implementation.Broom;
 import housekeeping.tools.CleaningTool;
-import housekeeping.tools.Sponge;
-import housekeeping.tools.VacuumCleaner;
+import housekeeping.tools.implementation.Sponge;
+import housekeeping.tools.implementation.VacuumCleaner;
 
 public class HouseApp_V01 {
     public static void main(String[] args) {
