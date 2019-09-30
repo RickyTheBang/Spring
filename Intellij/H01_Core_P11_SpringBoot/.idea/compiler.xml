@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CoreSpring_Part01" />
-        <module name="H01_Core_P10_JUnit5" />
+        <module name="H01_Core_P11_SpringBoot" />
       </profile>
     </annotationProcessing>
   </component>
