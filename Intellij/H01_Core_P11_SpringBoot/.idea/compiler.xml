@@ -9,5 +9,6 @@
         <module name="H01_Core_P11_SpringBoot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
