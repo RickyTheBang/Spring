@@ -1,23 +1,15 @@
 package theDemo.service.impl;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Primary;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Repository;
 import theDemo.model.BeanType;
 import theDemo.repository.WharehouseRepository;
-import theDemo.service.WarehouseService;
 
 @Repository
-//@Primary
-@Order(2)
-public class WarehouseRepositoryImpl implements WharehouseRepository {
-
-
-    @Bean
-    public WarehouseService beanCreationMethod(){
-        return new WarehouseServiceImpl (new WarehouseRepositoryImpl ());
-    }
+//@Qualifier("TheOtherRepository")
+@Order(1)
+public class TheOtherWarehouseRepositoryImpl implements WharehouseRepository {
     @Override
     public int getBeanCountByType(BeanType type) {
         return 0;

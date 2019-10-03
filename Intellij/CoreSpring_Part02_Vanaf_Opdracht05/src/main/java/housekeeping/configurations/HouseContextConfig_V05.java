@@ -6,4 +6,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan("housekeeping.*")
 public class HouseContextConfig_V05 {
+
+
 }

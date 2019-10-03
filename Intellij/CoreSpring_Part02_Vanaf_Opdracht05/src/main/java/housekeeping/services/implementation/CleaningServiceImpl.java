@@ -3,32 +3,37 @@ package housekeeping.services.implementation;
 
 import housekeeping.services.CleaningService;
 import housekeeping.tools.CleaningTool;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component("cleaningServiceImpl")
+@Qualifier("theCleaningServiceImpl")
 public class CleaningServiceImpl implements CleaningService {
     private CleaningTool cleaningTool;
-
-    public CleaningServiceImpl(){
-        System.out.println ("The Cleaning Service Implentation has started" );
-
-    }
-
-
-
-    public CleaningServiceImpl(CleaningTool cleaningTool){
-        this.cleaningTool =  cleaningTool;
-    }
-    public void setCleaningTool(CleaningTool cleaningTool){
-        this.cleaningTool = cleaningTool;
-    }
+    private float rate;
 
     public CleaningTool getCleaningTool() {
         return cleaningTool;
     }
 
+    @Autowired
+    public void setCleaningTool(@Qualifier("theBroom") CleaningTool cleaningTool) {
+        this.cleaningTool = cleaningTool;
+    }
+
+
+    @Value ("9")
+    public void setRate(float rate){
+        this.rate = rate;
+    }
+
     @Override
     public void clean() {
-        System.out.println ("Cleaning the house" );
-        cleaningTool.doCleanJob ();
+        System.out.println ("Cleaning the house");
+        System.out.println ("The rate of this job is: " + rate  );
+        cleaningTool.doCleanJob ( );
 
     }
 }
