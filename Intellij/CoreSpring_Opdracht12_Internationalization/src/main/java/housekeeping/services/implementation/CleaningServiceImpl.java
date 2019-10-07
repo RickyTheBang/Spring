@@ -7,7 +7,6 @@ import housekeeping.tools.CleaningTool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Profile;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
@@ -28,7 +27,7 @@ public class CleaningServiceImpl implements CleaningService {
     }
 
 
-    @Value ("9")
+    @Value ("${rate}")
     public void setRate(float rate){
         this.rate = rate;
     }
