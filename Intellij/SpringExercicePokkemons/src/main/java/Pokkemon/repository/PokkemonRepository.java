@@ -1,10 +1,13 @@
 package Pokkemon.repository;
 
-import Pokkemon.model.PokkemonType;
+import Pokkemon.model.Pokkemon;
+
+import java.util.List;
 
 public interface PokkemonRepository {
-   // public PokemonType getPokkemonbyTypeName(String typeName);
+    public Pokkemon getPokkemonbyId(int id);
+    public void savePokkemon(Pokkemon pokkemon);
+    public List<Pokkemon> getAllPokkemons();
 
-    public void createPokkemonType(PokkemonType pokkemonType);
 
 }
