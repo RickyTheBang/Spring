@@ -1,10 +1,13 @@
 package beers;
 
-import org.springframework.boot.SpringApplication;
+
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication(scanBasePackages = "beers")
+//@ComponentScan("beers")
+//@SpringBootConfiguration
+@SpringBootApplication(scanBasePackages ={"beers"})
 public class AppConfig {
 
 
