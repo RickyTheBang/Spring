@@ -31,7 +31,6 @@ public class AuditingAspect {
 
     @AfterThrowing(value = "execution(* *.transfer(..))",throwing = "ex")
     public void afterThrowing(Throwable ex){
-
     }
 
 

@@ -24,7 +24,13 @@ public class CleaningRobot implements CleaningService {
     public void clean() {
 
         System.out.println ("Cleaning the house." );
-        tools.forEach (CleaningTool::doCleanJob);
+        for (CleaningTool tool : tools) {
+            try {
+                tool.doCleanJob ( );
+            } catch (Exception e) {
+                System.out.println ("Dont use the vacuum cleaner" );
+            }
+        }
 
     }
 }

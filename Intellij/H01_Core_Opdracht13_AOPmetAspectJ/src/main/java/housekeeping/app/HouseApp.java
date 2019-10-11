@@ -3,6 +3,7 @@ package housekeeping.app;
 import housekeeping.configurations.AppConfig;
 import housekeeping.factory.HedgeTrimmerFactory;
 import housekeeping.services.DomesticService;
+import housekeeping.services.MusicMaker;
 import housekeeping.services.implementation.CleaningRobot;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -24,6 +25,11 @@ public class HouseApp {
             System.out.println ("3) EDGE TRIMMER" );
             HedgeTrimmerFactory hedgeTrimmerFactory = ctx.getBean("hedgeTrimmerFactory",HedgeTrimmerFactory.class);
             hedgeTrimmerFactory.hedgeTrimmer ().doGardenJob ();
+
+            //4) Music Making
+
+            MusicMaker musicMaker = ctx.getBean("domesticServiceImpl",MusicMaker.class);
+            musicMaker.makeMusic ();
 
         }
 

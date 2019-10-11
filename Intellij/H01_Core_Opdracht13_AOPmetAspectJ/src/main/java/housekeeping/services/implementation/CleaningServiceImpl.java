@@ -33,7 +33,11 @@ public class CleaningServiceImpl implements CleaningService {
     public void clean() {
         System.out.println ("Cleaning the house");
         System.out.println ("The rate of this job is: " + rate  );
-        cleaningTool.doCleanJob ( );
+        try {
+            cleaningTool.doCleanJob ( );
+        } catch (Exception e) {
+            System.out.println ("Don't use the vacuum cleaner" );
+        }
 
     }
 }

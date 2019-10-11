@@ -5,13 +5,25 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalTime;
+
 
 @Component("vacuumCleaner")
 @Qualifier("theVacuumCleaner")
 @Order(2)
 public class VacuumCleaner implements CleaningTool {
-    public void doCleanJob(){
-        System.out.println ("Zuuuuuuuuuu" );
+    int hour  = LocalTime.now ().getHour ();
+
+
+    public void doCleanJob()  throws Exception{
+
+        if(hour <8 && hour >=18){
+            throw new Exception ("No noise now!");
+        }else {
+            System.out.println ("Zuuuuuuuuuu" );
+        }
+
+
     }
 
 }
