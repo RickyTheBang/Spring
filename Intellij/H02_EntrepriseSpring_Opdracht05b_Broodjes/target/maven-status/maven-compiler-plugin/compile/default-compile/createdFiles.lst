@@ -1,0 +1,8 @@
+broodjes\AppConfig.class
+broodjes\repository\BroodjeRepository.class
+broodjes\repository\IngredientRepository.class
+broodjes\service\BroodjeService.class
+broodjes\app\BroodjesApp.class
+broodjes\domain\Ingredient.class
+broodjes\domain\Broodje.class
+broodjes\service\implementation\BroodjeServiceImpl.class

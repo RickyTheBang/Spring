@@ -1,0 +1,13 @@
+10	23	12	10	33	Bulbasaur	Grass
+10	23	12	10	33	Ivysaur	Grass
+10	23	12	10	33	Venusaur	Grass
+10	23	12	10	33	Charmander	Fire
+10	23	12	10	33	Charmeleon	Fire
+10	23	12	10	33	Charizard	Fire
+10	23	12	10	33	Squirtle	Water
+10	23	12	10	33	Wartortle	Water
+10	23	12	10	33	Blastoise	Water
+10	23	12	10	33	Cartepie	Bug
+10	23	12	10	33	Metapod	Bug
+10	23	12	10	33	Butterfree	Bug
+10	23	12	10	33	Weedle	Bug

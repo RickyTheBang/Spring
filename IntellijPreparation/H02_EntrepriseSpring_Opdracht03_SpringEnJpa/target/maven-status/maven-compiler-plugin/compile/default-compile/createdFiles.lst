@@ -1,0 +1,10 @@
+beers\app\BeersApp.class
+beers\repository\BeerRepository.class
+beers\domain\Brewer.class
+beers\domain\Category.class
+beers\domain\Person.class
+beers\service\BeerOrderItems.class
+beers\AppConfig.class
+beers\domain\Beer.class
+beers\service\BeerOrder.class
+beers\repository\implementation\BeerRepositoryImpl.class

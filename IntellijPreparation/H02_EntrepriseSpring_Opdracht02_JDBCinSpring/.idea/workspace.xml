@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a54b2614-e9e2-45cb-b69b-878e24ed62a8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="PUBLIC: database" type="5208c322:HsqlImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="PUBLIC: database" type="5208c322:HsqlImplModel$Database" />
+        <item name="SYSTEM_LOBS: schema" type="d266ad14:HsqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="StudentDB@noelvaes.eu" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="StudentDB@noelvaes.eu" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="StudentDB@noelvaes.eu" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="StudentDB: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="2e9a9b74-3db8-4fae-a82d-2ee0eee7f55a" />
+    </checked>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1S6rAZHo5wYuKPzW1fvBbEWaR71" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="hsqldb.local&#10;hsqldb&#10;mysql&#10;mariadb" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../H02_EntrepriseSpring_Opdracht03_SpringEnJpa" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\Eclipse_Java11\AllTopics\SpringHomeVersion\SpringIntellij\H02_EntrepriseSpring_Opdracht02_JDBCinSpring\src" />
+      <recent name="I:\Eclipse_Java11\AllTopics\SpringHomeVersion\SpringIntellij\H02_EntrepriseSpring_Opdracht02_JDBCinSpring\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Eclipse_Java11\AllTopics\SpringHomeVersion\SpringIntellij\H02_EntrepriseSpring_Opdracht02_JDBCinSpring\src\main\java\h02_Opdracht02" />
+      <recent name="I:\Eclipse_Java11\AllTopics\SpringHomeVersion\SpringIntellij\H02_EntrepriseSpring_Opdracht02_JDBCinSpring\src\test\java\h02_Opdracht01" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+      <command value="mvn clean" />
+      <command value="mvn test" />
+      <command value="mvn spring-boot:run" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BeerDaoTest">
+    <configuration name="All in H01_EntrepriseSpring_Opdracht01_DataSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H01_EntrepriseSpring_Opdracht01_DataSource" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H01_EntrepriseSpring_Opdracht01_DataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="h02_Opdracht02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.2" />
+      <option name="PACKAGE_NAME" value="h02_Opdracht02" />
+      <option name="MAIN_CLASS_NAME" value="h02_Opdracht02.BeerDaoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerDaoTest.testGetBeerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H01_EntrepriseSpring_Opdracht01_DataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="h02_Opdracht02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.2" />
+      <option name="PACKAGE_NAME" value="h02_Opdracht02" />
+      <option name="MAIN_CLASS_NAME" value="h02_Opdracht02.BeerDaoTest" />
+      <option name="METHOD_NAME" value="testGetBeerById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerDaoTest.testSetStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H01_EntrepriseSpring_Opdracht01_DataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="h02_Opdracht02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="h02_Opdracht02" />
+      <option name="MAIN_CLASS_NAME" value="h02_Opdracht02.BeerDaoTest" />
+      <option name="METHOD_NAME" value="testSetStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="H01_EntrepriseSpring_Opdracht01_DataSource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="h02_Opdracht02.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="h02_Opdracht02.app.BeerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in H01_EntrepriseSpring_Opdracht01_DataSource" />
+      <item itemvalue="JUnit.BeerDaoTest" />
+      <item itemvalue="JUnit.BeerDaoTest.testGetBeerById" />
+      <item itemvalue="JUnit.BeerDaoTest.testSetStock" />
+      <item itemvalue="Spring Boot.BeerApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeerDaoTest" />
+        <item itemvalue="Spring Boot.BeerApp" />
+        <item itemvalue="JUnit.BeerDaoTest.testSetStock" />
+        <item itemvalue="JUnit.All in H01_EntrepriseSpring_Opdracht01_DataSource" />
+        <item itemvalue="JUnit.BeerDaoTest.testGetBeerById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@40f0d980" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@40f0d980" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@140f8a8b" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ef8525e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ef8525e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5dede9e9" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a54b2614-e9e2-45cb-b69b-878e24ed62a8" name="Default Changelist" comment="" />
+      <created>1570377843432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570377843432</updated>
+      <workItem from="1570377847431" duration="1263000" />
+      <workItem from="1570379410068" duration="94000" />
+      <workItem from="1570385775994" duration="3713000" />
+      <workItem from="1570612636248" duration="10000" />
+      <workItem from="1570894745870" duration="908000" />
+      <workItem from="1570895861542" duration="98000" />
+      <workItem from="1570896041291" duration="3816000" />
+      <workItem from="1570901428900" duration="3914000" />
+      <workItem from="1570905572823" duration="877000" />
+      <workItem from="1570973234713" duration="4398000" />
+      <workItem from="1571033614483" duration="34000" />
+      <workItem from="1571054445814" duration="295000" />
+      <workItem from="1571127546858" duration="77000" />
+      <workItem from="1571127830199" duration="236000" />
+      <workItem from="1571128089693" duration="261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean spring-boot:run" />
+    <option value="spring-boot:run" />
+  </component>
+</project>
