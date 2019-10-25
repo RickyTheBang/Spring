@@ -21,7 +21,7 @@ public interface IngredientRepository extends JpaRepository<Ingredient, Integer>
 
     @Transactional
     @Query(value = "select i from Ingredient i where i.name=?1")
-    public Ingredient getIngredientByName(String typeName);
+    public Ingredient getIngredientByName(String name);
 
 
 

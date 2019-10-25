@@ -9,6 +9,8 @@ import java.util.Set;
 public interface IngredientService {
 
     Broodje prepareBroodje(String name, Set<Ingredient> ingredients);
+    
+    void createBaseIngredients();
 
 
 }

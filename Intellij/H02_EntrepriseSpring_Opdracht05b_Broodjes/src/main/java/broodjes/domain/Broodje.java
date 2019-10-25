@@ -33,7 +33,9 @@ public class Broodje implements Serializable {
         this.ingredients = ingredients;
     }
 
-
+    public int getId() {
+        return id;
+    }
 
     public String getName() {
         return name;
