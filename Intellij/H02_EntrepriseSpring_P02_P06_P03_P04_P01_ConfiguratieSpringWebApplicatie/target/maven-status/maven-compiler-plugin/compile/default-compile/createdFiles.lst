@@ -1,0 +1,6 @@
+RESTfulWebServicesSimpleExample\model\Message.class
+RESTfulWebServicesSimpleExample\application\MessageServerApp.class
+RESTfulWebServicesSimpleExample\repository\implementation\MessageRepositoryImpl.class
+RESTfulWebServicesSimpleExample\controller\MessageRestController.class
+RESTfulWebServicesSimpleExample\AppConfig.class
+RESTfulWebServicesSimpleExample\repository\MessageRepository.class

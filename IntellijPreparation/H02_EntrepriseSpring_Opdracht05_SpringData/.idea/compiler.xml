@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="H02_EntrepriseSpring_Opdracht04_DeclaratiefTransactiebeheer" />
         <module name="H02_EntrepriseSpring_Opdracht02_JDBCinSpring" />
+        <module name="H02_EntrepriseSpring_Opdracht05_SpringData" />
+        <module name="H02_EntrepriseSpring_Opdracht04_DeclaratiefTransactiebeheer" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="H02_EntrepriseSpring_Opdracht02_JDBCinSpring" options="-parameters" />
       <module name="H02_EntrepriseSpring_Opdracht04_DeclaratiefTransactiebeheer" options="-parameters" />
+      <module name="H02_EntrepriseSpring_Opdracht05_SpringData" options="-parameters" />
     </option>
   </component>
 </project>

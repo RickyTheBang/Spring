@@ -1,0 +1,5 @@
+soapProject\application\HelloApp.class
+soapProject\service\Hello.class
+soapProject\web\HelloServiceEndpoint.class
+soapProject\service\implementation\HelloImpl.class
+soapProject\AppConfig.class

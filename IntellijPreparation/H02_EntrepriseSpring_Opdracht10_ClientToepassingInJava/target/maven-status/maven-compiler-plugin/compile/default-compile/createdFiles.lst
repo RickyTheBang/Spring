@@ -1,0 +1,5 @@
+ClientToepassingInJava\component\MessagesClient.class
+ClientToepassingInJava\AppConfig.class
+ClientToepassingInJava\component\implementation\MessagesRestClient.class
+ClientToepassingInJava\application\MessageClientApp.class
+ClientToepassingInJava\model\Message.class
