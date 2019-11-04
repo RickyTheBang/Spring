@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-jms" />
-        <module name="springjms" />
-        <module name="H02_EntrepriseSpring_Opdracht05_SpringData" />
+        <module name="H02_EntrepriseSpring_Opdracht08_RESTfulWebService" />
+        <module name="H02_EntrepriseSpring_Opdracht11WebClientmetHTMLenAjax" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="H02_EntrepriseSpring_P02_P06_P02_SOAPWebServices" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="H02_EntrepriseSpring_Opdracht05_SpringData" options="-parameters" />
-      <module name="spring-jms" options="-parameters" />
+      <module name="H02_EntrepriseSpring_Opdracht08_RESTfulWebService" options="-parameters" />
+      <module name="H02_EntrepriseSpring_Opdracht11WebClientmetHTMLenAjax" options="-parameters" />
+      <module name="H02_EntrepriseSpring_P02_P06_P02_SOAPWebServices" options="-parameters" />
     </option>
   </component>
 </project>

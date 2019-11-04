@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6081edc8-b366-47d6-87c0-884a7c8bf1d8" name="Default Changelist" comment="" />
+    <list default="true" id="6081edc8-b366-47d6-87c0-884a7c8bf1d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/H02_EntrepriseSpring_Opdracht08_RESTfulWebService.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H03_SpringMVC_Opdracht02_SpringMVCApplicatie/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../H03_SpringMVC_Opdracht02_SpringMVCApplicatie/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../H03_SpringMVC_Opdracht02_SpringMVCApplicatie/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../H03_SpringMVC_Opdracht02_SpringMVCApplicatie/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -45,6 +58,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1SFBU6I4uGTgaP2bsCVTXdguYHM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -54,7 +68,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../H02_EntrepriseSpring_P02_P06_P03_P04_P05_URLs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -432,10 +446,23 @@
       <workItem from="1571834370936" duration="946000" />
       <workItem from="1571835349527" duration="3544000" />
       <workItem from="1571842627793" duration="2338000" />
+      <workItem from="1572454316931" duration="455000" />
+      <workItem from="1572869110853" duration="431000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

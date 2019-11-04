@@ -2,7 +2,7 @@ function getMessage() {
     const messageId = document.getElementById("messageId").value;
     const xhr = new XMLHttpRequest();
     xhr.onload = onLoad;
-    xhr.open("GET", "http://localhost:8080/messages/" + messageId, true);
+    xhr.open("GET", "messages/" + messageId, true);
     xhr.setRequestHeader("Accept", "application/json");
     xhr.send(null)
 }
