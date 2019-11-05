@@ -1,12 +1,16 @@
 package com.example.restdemoinit.controller;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Message {
     private Integer id;
     private String message;
 
 
     public Message() {
-
+        this.message = "Hello Mars";
+        this.id = 4;
     }
 
     public Message(String message, Integer id) {

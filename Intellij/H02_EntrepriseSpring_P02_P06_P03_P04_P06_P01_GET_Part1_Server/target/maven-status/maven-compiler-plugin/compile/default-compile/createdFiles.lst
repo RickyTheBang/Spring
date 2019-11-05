@@ -1,0 +1,7 @@
+GET\model\Message.class
+GET\model\MessageList.class
+GET\repository\MessageRepository.class
+GET\application\MessageServerApp.class
+GET\AppConfig.class
+GET\controller\MessageRestController.class
+GET\repository\implementation\MessageRepositoryImpl.class
