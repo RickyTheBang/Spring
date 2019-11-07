@@ -1,11 +1,7 @@
 package com.example.restdemoinit.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -43,7 +39,7 @@ public class DemoController {
 
     }
 
-   /* @GetMapping("/something")
+    @GetMapping("/something")
     public ResponseEntity doSomething() {
 
         // return new ResponseEntity<> (new Message("Hello World",7),HttpStatus.ACCEPTED);
@@ -51,7 +47,7 @@ public class DemoController {
       // return ResponseEntity.ok (new Message ("Hello World", 8));
         return ResponseEntity.ok(new Message ("Hello World",55));
 
-    }*/
+    }
 
 
   /*     @PostMapping("/something")

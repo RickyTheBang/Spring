@@ -67,7 +67,8 @@ public class MessagesRestClient implements MessagesClient {
     }
 
     @Override
-    public URI createMessage(Message message) {
+    public URI createMessage(Message message)
+    {
         return template.postForLocation (baseURL +"/messages",message);
     }
 }

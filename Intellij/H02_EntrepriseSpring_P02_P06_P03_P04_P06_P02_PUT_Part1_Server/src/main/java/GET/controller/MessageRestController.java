@@ -48,7 +48,7 @@ public class MessageRestController {
     @PostMapping(consumes = {MediaType.APPLICATION_JSON_UTF8_VALUE,
             MediaType.APPLICATION_XML_VALUE})
     public ResponseEntity addMessage(@RequestBody Message message, HttpServletRequest request){
-        if(message.getId () !=0){
+        if(message.getId () ==0){
             return ResponseEntity.badRequest ().build ();
         }
         message = messageRepository.createMessage (message);

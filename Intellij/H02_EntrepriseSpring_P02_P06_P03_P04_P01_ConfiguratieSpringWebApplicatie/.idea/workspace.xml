@@ -54,7 +54,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../H01_Core_Part01" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -410,6 +410,7 @@
       <workItem from="1571822399839" duration="9000" />
       <workItem from="1571834234803" duration="134000" />
       <workItem from="1571836928988" duration="16000" />
+      <workItem from="1573042417558" duration="50000" />
     </task>
     <servers />
   </component>

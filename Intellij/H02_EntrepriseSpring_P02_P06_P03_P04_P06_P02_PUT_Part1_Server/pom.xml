@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>house.com</groupId>
-    <artifactId>H02_EntrepriseSpring_P02_P06_P03_P04_P06_P01_GET_Part1</artifactId>
+    <artifactId>H02_EntrepriseSpring_P02_P06_P03_P04_P06_P01_PUT_Part1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
