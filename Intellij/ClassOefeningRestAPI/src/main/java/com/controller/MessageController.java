@@ -1,6 +1,7 @@
 package com.controller;
 
 import com.domain.Message;
+import com.domain.MessageContent;
 import com.domain.Message_Repo;
 import com.repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,73 +27,40 @@ public class MessageController {
        this.messageRepository = messageRepository;
    }
 
-  @GetMapping("/allMessage")
-    public ResponseEntity getAllMessages(){
-     return ResponseEntity.ok(new Message_Repo ("Hello World",55));
-    }
 
-    @GetMapping("/messages")
-    public ResponseEntity<List<Message>> postSomething() {
+
+    @GetMapping("/allMessages")
+    public ResponseEntity<List<Message>> getAllMessages() {
         List<Message> messageList = messageRepository.getALLMessages ();
 
         return ResponseEntity.ok(messageList);
 
     }
-   @GetMapping("/paramdemo")
-   public ResponseEntity doSomethingWithParameter(@RequestParam(name = "test",required = false,defaultValue = "haha") String testParam){
-       return ResponseEntity.ok(testParam);
-
-   }
-
-    @GetMapping("/something/{id}")
-    public ResponseEntity doSomething(@PathVariable("id") Integer id) {
-
-        System.out.println (id);
-      //  service.getSomethingById(id);
-        if(id ==55){
-            return ResponseEntity.ok(new Message_Repo ("Hello World",55));
-        }
-       else {
-           return ResponseEntity.status (HttpStatus.NOT_FOUND)
-                   .body("Your resource was not found");
-        }
-
-    }
-
-    @GetMapping("/something")
-    public ResponseEntity doSomething() {
-
-        // return new ResponseEntity<> (new Message("Hello World",7),HttpStatus.ACCEPTED);
-
-      // return ResponseEntity.ok (new Message ("Hello World", 8));
-        return ResponseEntity.ok(new Message_Repo ("Hello World",55));
-
-    }
-
-
- /*    @PostMapping("/something")
-    public ResponseEntity<Message> postSomething() {
-
-        return ResponseEntity.ok(new Message ("Hello World",11));
-
-    }
-
-*/
-    @PostMapping(value = "/addMessage",
+/*
+,
             consumes = {
-                    MediaType.APPLICATION_XML_VALUE})
-    public ResponseEntity<Message_Repo> postSomething(@RequestBody Text text, HttpServletRequest request) {
+            MediaType.APPLICATION_JSON_UTF8_VALUE,
+                    MediaType.APPLICATION_XML_VALUE}
+ */
+    @PostMapping(consumes = {
+            MediaType.ALL_VALUE,
+            MediaType.APPLICATION_JSON_UTF8_VALUE,
+            MediaType.APPLICATION_XML_VALUE}, value = "/addMessage")
+    public ResponseEntity<Message_Repo> postMessage(@RequestBody MessageContent content, HttpServletRequest request) {
 
-        Message message = new Message (text.toString ());
+      Message message = new Message (content.getContent());
 
 
-        if(message.getId () ==0){
+
+        messageRepository.save (message);
+
+          if(message.getId () ==0){
             return ResponseEntity.badRequest ().build ();
         }
-        message = messageRepository.save (message);
         URI uri = URI.create (request.getRequestURL ()
                 +"/" + message.getId ());
-        return ResponseEntity.created (uri).build ();
+       return ResponseEntity.created (uri).build ();
+       // return ResponseEntity.ok().build();
 
     }
 

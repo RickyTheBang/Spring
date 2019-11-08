@@ -6,6 +6,6 @@ import springMVC.service.Hello;
 public class HelloService implements Hello {
     @Override
     public String sayHello() {
-        return "Hello World";
+        return "Hello joe";
     }
 }

@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-jms" />
-        <module name="springjms" />
         <module name="H02_EntrepriseSpring_Opdracht05_SpringData" />
+        <module name="springjms" />
       </profile>
     </annotationProcessing>
   </component>
