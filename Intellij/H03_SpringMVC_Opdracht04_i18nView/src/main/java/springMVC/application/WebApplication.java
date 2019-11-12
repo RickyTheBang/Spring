@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebApplication {
     @Bean
     public WebMvcConfigurer configurer() {
-        return new WebMvcConfigurer ( ) {
+        return  new WebMvcConfigurer ( ) {
             @Override
             public void addViewControllers(ViewControllerRegistry registry) {
                 registry.addViewController ("/welcome")
