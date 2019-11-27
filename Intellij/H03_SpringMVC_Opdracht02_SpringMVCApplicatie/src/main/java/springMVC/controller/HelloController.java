@@ -18,8 +18,9 @@ public class HelloController {
     @RequestMapping("hello")
     public ModelAndView handleHello(){
         String text = helloService.sayHello ();
+        return new ModelAndView("helloView","message",text);
 
-        return new ModelAndView ("helloView","message", text);
+      //  return new ModelAndView ("helloView","message", text);
 
     }
 }

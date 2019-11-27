@@ -20,7 +20,7 @@ public class Menu {
         THE SECOND TIME, COMMENT THIS LINE OF CODE AGAIN. OTHERWISE YOU'll LOST YOUR PREVIOUS RECORDINGS.
        */
         //0) Creation of records in the tables pokkemontype
-       //menuPresentationService.CreationRecords();
+       menuPresentationService.CreationRecords();
 
         //1) Registration of the user
         Trainer user = menuPresentationService.userRegistration();
