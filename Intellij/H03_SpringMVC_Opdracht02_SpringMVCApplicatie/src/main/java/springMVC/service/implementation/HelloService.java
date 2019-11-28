@@ -2,11 +2,12 @@ package springMVC.service.implementation;
 
 import org.springframework.stereotype.Service;
 import springMVC.service.Hello;
-
-@Service("helloService")
+@Service
 public class HelloService implements Hello {
     @Override
     public String sayHello() {
-        return "Hello World";
+        return "Hello joe";
     }
+
+
 }

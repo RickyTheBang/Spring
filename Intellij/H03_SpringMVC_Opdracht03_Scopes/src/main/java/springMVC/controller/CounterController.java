@@ -1,5 +1,6 @@
 package springMVC.controller;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.context.annotation.ApplicationScope;
@@ -9,7 +10,8 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
 @Controller
-@ApplicationScope
+@Scope(value = "session")
+//@ApplicationScope
 public class CounterController {
     private int count = 0;
 
