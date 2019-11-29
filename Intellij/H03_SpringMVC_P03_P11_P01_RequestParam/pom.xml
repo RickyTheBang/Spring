@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>house.com</groupId>
-    <artifactId>H03_SpringMVC_P03_P10_URIMapping</artifactId>
+    <artifactId>H03_SpringMVC_P03_P11_P01_RequestParam</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 

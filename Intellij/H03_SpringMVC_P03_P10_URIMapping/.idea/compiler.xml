@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-jms" />
         <module name="springjms" />
-        <module name="H03_SpringMVC_P03_P09_ReturnWaarden" />
         <module name="H03_SpringMVC_Opdracht01_ProjectOpzetten" />
+        <module name="H03_SpringMVC_P03_P09_ReturnWaarden" />
+        <module name="spring-jms" />
+        <module name="H03_SpringMVC_P03_P10_URIMapping" />
         <module name="H02_EntrepriseSpring_Opdracht05_SpringData" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="H02_EntrepriseSpring_Opdracht05_SpringData" options="-parameters" />
       <module name="H03_SpringMVC_Opdracht01_ProjectOpzetten" options="-parameters" />
       <module name="H03_SpringMVC_P03_P09_ReturnWaarden" options="-parameters" />
+      <module name="H03_SpringMVC_P03_P10_URIMapping" options="-parameters" />
       <module name="spring-jms" options="-parameters" />
     </option>
   </component>

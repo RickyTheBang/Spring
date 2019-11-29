@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-jms" />
-        <module name="springjms" />
         <module name="H02_EntrepriseSpring_Opdracht05_SpringData" />
+        <module name="springjms" />
+        <module name="H03_SpringMVC_Opdracht02_SpringMVCApplicatie" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="H02_EntrepriseSpring_Opdracht05_SpringData" options="-parameters" />
+      <module name="H03_SpringMVC_Opdracht02_SpringMVCApplicatie" options="-parameters" />
       <module name="spring-jms" options="-parameters" />
     </option>
   </component>

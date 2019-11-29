@@ -15,6 +15,6 @@ public class ParamController {
 @GetMapping("mypage")
     public ModelAndView handle(@RequestParam("first_name")
                                        String firstName){
-        return new ModelAndView ("mypage","message","Hello" +firstName);
+        return new ModelAndView ("mypage","message","Hello " +firstName);
     }
 }

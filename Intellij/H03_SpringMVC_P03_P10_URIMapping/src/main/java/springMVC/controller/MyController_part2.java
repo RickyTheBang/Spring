@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/myPages")
+@RequestMapping("/page")
 public class MyController_part2 {
 
     //3) p328 first table
- /*   @GetMapping("/page1")
+    /*@GetMapping("/page1")
     public String handleGet() {
         return "view1";
     }
@@ -18,6 +18,11 @@ public class MyController_part2 {
     @GetMapping("/page2")
     public String handlePost() {
         return "view2";
+    }
+
+    @GetMapping()
+    public String handleDefault() {
+        return "view3";
     }*/
 
     //4) p329 first table
@@ -26,14 +31,20 @@ public class MyController_part2 {
         return "pages";
     }*/
 
+//4) p328 second table
 
-
-  /*  @GetMapping(params = "submit")
+    @GetMapping(params = "submit")
     public String handleSubmit() {
         return "view1";
-    }*/
+    }
 
-    @GetMapping(params = "action=submit")
+    @GetMapping(params = "cancel")
+    public String handleCancel() {
+        return "view2";
+    }
+
+    //5) p329 first table
+   /* @GetMapping(params = "action=submit")
     public String handleSubmit() {
         return "view1";
     }
@@ -42,5 +53,5 @@ public class MyController_part2 {
     @GetMapping(params = "action=cancel")
     public String handleCancel() {
         return "view2";
-    }
+    }*/
 }

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+</head>
+<body>
+
+<div th:each="greeting,status:${greetings}"
+th:text="${status.count} + ' : ' + ${greeting}">
+    Greeting</div>
+
+
+</body>
+</html>
