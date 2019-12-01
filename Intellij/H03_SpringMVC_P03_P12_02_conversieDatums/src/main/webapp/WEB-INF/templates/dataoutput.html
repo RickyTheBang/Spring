@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+</head>
+<body th:object="${myData}">
+<h1>Getallen en Datums</h1>
+
+<div th:text="*{number}">Name</div>
+<div th:text="*{date}">Name</div>
+
+
+</body>
+</html>

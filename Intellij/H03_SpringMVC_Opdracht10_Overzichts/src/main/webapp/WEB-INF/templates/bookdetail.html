@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org" xmlns:c="http://java.sun.com/xml/ns/javaee"
+>
+<head>
+    <title>Book Detail</title>
+</head>
+<body>
+<h1>Book Detail</h1>
+<div>
+    <br th:text="'Title: ' +${book.title}"/>
+    <br th:text="'ISBN: ' +${book.isbn}"/>
+    <br th:text="'Author: ' +${book.author}"/>
+    <br th:text="'Price: ' +${book.price}"/>
+</div>
+</body>
+</html>

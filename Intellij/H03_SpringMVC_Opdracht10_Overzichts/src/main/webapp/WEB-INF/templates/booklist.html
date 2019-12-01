@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org" xmlns:c="http://java.sun.com/xml/ns/javaee"
+>
+<html>
+<head>
+<title>Book List</title>
+</head>
+<body>
+   <h1>BookList</h1>
+
+   <ul th:each="book : ${booklist}"
+       th:tex="${book}">
+       <a href="detail" th:href="@{detail(isbn=${book.isbn})}">
+
+      <li th:text="${book.title}">TITLE
+        <!-- <a href="detail" th:href="@{detail(id=${book.isbn})}">-->
+        <!--  <a href="https://www.w3schools.com">Visit W3Schools</a>-->
+          <!--  <a href="detail.htm?isbn=${book.isbn}">-->
+
+
+         </a></li>
+   </ul>
+</body>
+</html>
+<!-- <th:forEach items="${booklist}" var="book">
+        <li><a href="detail.htm?isbn=${book.isbn}">${book.title}</a></li>
+     </th:forEach>-->
