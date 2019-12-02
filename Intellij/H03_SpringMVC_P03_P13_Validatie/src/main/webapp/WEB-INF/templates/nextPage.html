@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Message</title>
+</head>
+<!--<body th:object="${myData}">-->
+<body  th:object="${myform}">
+<h1>The Message</h1>
+
+<div th:text="*{message}">Number</div>
+
+</body>
+</html>

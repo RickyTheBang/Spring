@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Customer form</title>
+</head>
+<body>
+
+<form method="post" th:object="${myform}">
+    <div th:each="radioButton :${radioList}">
+        <label th:for="${#ids.next('radioValue')}"
+               th:text="${radioButton}"/>
+        <input type="radio"
+        th:field="*{radioValue}"
+        th:value="${radioButton}" /><br/>
+
+    </div>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

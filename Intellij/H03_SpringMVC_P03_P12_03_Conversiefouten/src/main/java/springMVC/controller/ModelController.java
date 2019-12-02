@@ -24,9 +24,11 @@ public class ModelController {
  public String processForm(@ModelAttribute("myData") ConversionCommand command, BindingResult br){
 
         if(br.hasErrors()){
+            System.out.println ("fail: " + br.hasErrors () );
             return "fail";
         }
         else {
+            System.out.println ("success: " + br.hasErrors () );
             return "success";
         }
 

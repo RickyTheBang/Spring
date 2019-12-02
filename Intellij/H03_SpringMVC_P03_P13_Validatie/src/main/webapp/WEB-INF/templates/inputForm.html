@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:Message="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Form</title>
+</head>
+<body  th:object="${myform}">
+<form method="post" th:object="${myform}">
+ Message:
+    <input type="text" name="message">
+    <input type="submit" value ="Submit">
+</form>
+
+</body>
+</html>

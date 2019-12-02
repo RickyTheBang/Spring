@@ -15,6 +15,7 @@
         <module name="H02_EntrepriseSpring_Opdracht05_SpringData" />
         <module name="H03_SpringMVC_P03_P11_P01_RequestParam" />
         <module name="H03_SpringMVC_P03_P11_P02_ModelObject_P3" />
+        <module name="H03_SpringMVC_P03_P12_03_Conversiefouten" />
       </profile>
     </annotationProcessing>
   </component>
@@ -27,6 +28,7 @@
       <module name="H03_SpringMVC_P03_P11_P01_RequestParam" options="-parameters" />
       <module name="H03_SpringMVC_P03_P11_P02_ModelObject" options="-parameters" />
       <module name="H03_SpringMVC_P03_P11_P02_ModelObject_P3" options="-parameters" />
+      <module name="H03_SpringMVC_P03_P12_03_Conversiefouten" options="-parameters" />
       <module name="spring-jms" options="-parameters" />
     </option>
   </component>

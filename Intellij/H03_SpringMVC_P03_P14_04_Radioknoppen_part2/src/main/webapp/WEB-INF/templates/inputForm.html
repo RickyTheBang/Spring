@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Customer form</title>
+</head>
+<body>
+
+<form method="post" th:object="${myform}">
+    <div th:each="s: ${T(springMVC.model.SizeType).name()}">
+        <label th:for="${#ids.next('size')}"
+               th:text="${s}"/>
+        <input type="radio"
+        th:field="*{name()}"
+        th:value="${s}" /><br/>
+
+    </div>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

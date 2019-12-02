@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Customer form</title>
+</head>
+<body>
+
+<form method="post" th:object="${myform}">
+    <div>
+        <label th:for="${#ids.next('selection')}">
+            Selection:
+        </label>
+        <input type="checkbox" th:field="*{selection}" ><br/>
+
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</body>
+</html>
