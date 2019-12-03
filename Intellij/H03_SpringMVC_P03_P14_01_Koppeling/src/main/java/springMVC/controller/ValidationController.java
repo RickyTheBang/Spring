@@ -2,34 +2,36 @@ package springMVC.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.ObjectError;
-import org.springframework.web.bind.annotation.*;
-import springMVC.model.ValidationCommand;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import springMVC.model.FormCommand;
 
 import javax.validation.Valid;
 
 @Controller
-@RequestMapping("/welcome")
+@RequestMapping("/inputForm")
 public class ValidationController {
     @GetMapping
-    public String forward() {
-        return "convert";
+    public String forward(
+            @ModelAttribute("myform") FormCommand form) {
+
+        return "inputForm";
     }
 
     @PostMapping
-    public String handleForm(@Valid @ModelAttribute("myNumber") ValidationCommand command,
+    public String handleForm(@Valid @ModelAttribute("myform") FormCommand command,
                              BindingResult br) {
 
-if(br.hasErrors ()){
-    System.out.println ("Error");
-}
-
-
-
-            return "validation";
+        if (br.hasErrors ( )) {
+            for (String code : br.getFieldError ( ).getCodes ( )) {
+                System.out.println (code);
+            }
+            System.out.println ("Error");
         }
-
-
+        return "nextPage";
     }
+}
 
 

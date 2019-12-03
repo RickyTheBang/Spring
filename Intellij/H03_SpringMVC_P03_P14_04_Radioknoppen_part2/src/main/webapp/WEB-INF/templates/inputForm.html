@@ -5,12 +5,23 @@
 </head>
 <body>
 
-<form method="post" th:object="${myform}">
-    <div th:each="s: ${T(springMVC.model.SizeType).name()}">
+
+<!--<select name="color">
+    <option th:each="colorOpt : ${T(springMVC.model.SizeType).name()}"
+            th:value="${colorOpt}" th:text="${colorOpt}"></option>
+</select>-->
+
+
+<!--th:each="s: ${T(springMVC.model.SizeType).values()}"-->
+<form method="post" th:object="${myForm}">
+
+
+    <div th:each="s: ${T(springMVC.model.SizeType).values()}"
+           >
         <label th:for="${#ids.next('size')}"
                th:text="${s}"/>
         <input type="radio"
-        th:field="*{name()}"
+        th:field="*{type}"
         th:value="${s}" /><br/>
 
     </div>

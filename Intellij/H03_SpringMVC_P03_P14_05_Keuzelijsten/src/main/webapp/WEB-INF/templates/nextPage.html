@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+</head>
+<!--<body th:object="${myData}">-->
+<body th:object="${myForm}">
+<h1>Choices</h1>
+<div th:each="choice :*{getChoices()}"
+     th:text="${choice}"> choice"
+</div>
+</body>
+</html>

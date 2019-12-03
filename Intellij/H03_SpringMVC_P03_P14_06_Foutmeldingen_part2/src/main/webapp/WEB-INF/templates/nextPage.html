@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+</head>
+<body th:object="${myform}">
+<h1>Your number</h1>
+
+<div th:text="*{number}">Number</div>
+
+
+</body>
+</html>

@@ -23,7 +23,7 @@ public class FormController {
     }
 
     @GetMapping
-    public String forward(@ModelAttribute("myform") FormCommand form) {
+    public String forward(@ModelAttribute("myForm") FormCommand form) {
         return "inputForm";
 
     }
