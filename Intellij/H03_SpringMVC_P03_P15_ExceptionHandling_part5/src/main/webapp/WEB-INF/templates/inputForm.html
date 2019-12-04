@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Customer form</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/form.css "/>
+<body>
+
+<form method="post" th:object="${myform}">
+    <div>
+
+
+        <label for="number">Number: </label>
+        <input type="text" th:field="*{number}"
+        th:errorClass="errorField"/>
+
+        <span th:if="${#fields.hasErrors('number')}"
+        class="errorMessage" th:errors="*{number}">Invalid message</span>
+
+
+        <br/>
+
+
+        <input type="submit" value="Submit">
+    </div>
+</form>
+
+</body>
+</html>
