@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="H03_SpringMVC_P03_P11_P02_ModelObject" />
+        <module name="H03_SpringMVC_P03_P11_P02_ModelObject_P3" />
         <module name="H03_SpringMVC_P03_P12_04_ProgrammtischeConversie" />
         <module name="springjms" />
         <module name="H03_SpringMVC_P03_P14_02_Invoervelden" />
@@ -16,7 +17,6 @@
         <module name="H03_SpringMVC_P03_P11_P01_RequestParam" />
         <module name="H03_SpringMVC_P03_P14_06_Foutmeldingen_part2" />
         <module name="H03_SpringMVC_P03_P10_URIMapping" />
-        <module name="H03_SpringMVC_P03_P11_P02_ModelObject_P3" />
         <module name="spring-jms" />
         <module name="H03_SpringMVC_P03_P09_ReturnWaarden" />
         <module name="H02_EntrepriseSpring_Opdracht05_SpringData" />
