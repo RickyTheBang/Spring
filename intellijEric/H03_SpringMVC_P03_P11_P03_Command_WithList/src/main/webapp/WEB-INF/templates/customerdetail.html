@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org"
+>
+<head>
+    <title>Customer form</title>
+</head>
+<body th:object="${data}">
+
+<!--<div th:text="${customer.firstName} + ' ' +
+${customer.lastName}">Name</div>
+<div th:text="${customer.email}">Name</div>-->
+
+<div th:text="*{firstName} + ' ' +
+*{lastName}">Name</div>
+
+</body>
+</html>
